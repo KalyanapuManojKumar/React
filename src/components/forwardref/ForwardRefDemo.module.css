@@ -1,0 +1,65 @@
+.card {
+  width: 500px;
+
+  padding: 32px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.heading {
+  color: #1e40af;
+
+  margin-bottom: 12px;
+
+  font-size: 2rem;
+}
+
+.description {
+  color: #64748b;
+
+  margin-bottom: 24px;
+}
+
+.actions {
+  display: flex;
+
+  gap: 12px;
+
+  margin-top: 20px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  flex: 1;
+
+  border: none;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+.primaryBtn {
+  background: #2563eb;
+  color: white;
+}
+
+.primaryBtn:hover {
+  background: #1d4ed8;
+}
+
+.secondaryBtn {
+  background: #e5e7eb;
+}
+
+.secondaryBtn:hover {
+  background: #d1d5db;
+}

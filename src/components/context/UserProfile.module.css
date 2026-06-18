@@ -1,0 +1,41 @@
+.card {
+  width: 400px;
+
+  padding: 30px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  color: #1e40af;
+}
+
+.card p {
+  color: #64748b;
+  margin: 10px 0;
+}
+
+.card span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+
+  padding: 12px 20px;
+
+  background: #2563eb;
+
+  color: white;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}

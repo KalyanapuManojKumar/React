@@ -1,0 +1,106 @@
+.card {
+  width: 420px;
+
+  padding: 32px;
+
+  border-radius: 20px;
+
+  background: #ffffff;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 8px;
+
+  color: #1e3a8a;
+
+  font-size: 2rem;
+
+  font-weight: 700;
+}
+
+.description {
+  margin-bottom: 24px;
+
+  color: #64748b;
+}
+
+.counterContainer {
+  margin-bottom: 24px;
+}
+
+.count {
+  display: inline-flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+
+  color: white;
+
+  font-size: 2.5rem;
+
+  font-weight: bold;
+}
+
+.buttonGroup {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  flex-wrap: wrap;
+}
+
+.primaryButton,
+.secondaryButton,
+.resetButton {
+  border: none;
+
+  border-radius: 10px;
+
+  padding: 12px 20px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  transition: 0.3s ease;
+}
+
+.primaryButton {
+  background: #2563eb;
+  color: white;
+}
+
+.primaryButton:hover {
+  background: #1d4ed8;
+}
+
+.secondaryButton {
+  background: #60a5fa;
+  color: white;
+}
+
+.secondaryButton:hover {
+  background: #3b82f6;
+}
+
+.resetButton {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.resetButton:hover {
+  background: #cbd5e1;
+}

@@ -1,0 +1,125 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+
+  background: white;
+
+  padding: 24px;
+
+  border-radius: 16px;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  width: 100%;
+
+  padding: 12px;
+
+  margin: 16px 0;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 8px;
+}
+
+.button {
+  width: 100%;
+
+  border: none;
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  background: #2563eb;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+  background: white;
+
+  padding: 24px;
+  border-radius: 16px;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  width: 100%;
+
+  padding: 12px;
+
+  margin: 16px 0;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+/* Add these styles below */
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.cancelBtn,
+.submitBtn {
+  flex: 1;
+
+  border: none;
+  padding: 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+.cancelBtn {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.cancelBtn:hover {
+  background: #d1d5db;
+}
+
+.submitBtn {
+  background: #2563eb;
+  color: white;
+}
+
+.submitBtn:hover {
+  background: #1d4ed8;
+}

@@ -1,0 +1,71 @@
+.card {
+  width: 500px;
+
+  padding: 32px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.heading {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+
+  padding: 12px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 24px;
+}
+
+.user {
+  padding: 12px;
+
+  background: #eff6ff;
+
+  border-radius: 8px;
+
+  color: #1e40af;
+}
+
+.counter {
+  text-align: center;
+}
+
+.button {
+  margin-top: 10px;
+
+  padding: 12px 20px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #2563eb;
+
+  color: white;
+
+  cursor: pointer;
+}

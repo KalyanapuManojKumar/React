@@ -1,0 +1,123 @@
+.card {
+  width: 700px;
+
+  padding: 32px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.heading {
+  color: #2563eb;
+
+  margin-bottom: 8px;
+}
+
+.description {
+  color: #64748b;
+
+  margin-bottom: 24px;
+}
+
+.inputGroup {
+  display: flex;
+
+  gap: 12px;
+
+  margin-bottom: 24px;
+}
+
+.input {
+  flex: 1;
+
+  padding: 12px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 10px;
+
+  outline: none;
+}
+
+.input:focus {
+  border-color: #2563eb;
+}
+
+.addButton {
+  border: none;
+
+  padding: 12px 20px;
+
+  background: #2563eb;
+
+  color: white;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.taskList {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.taskCard {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 16px;
+
+  background: #eff6ff;
+
+  border-radius: 12px;
+}
+
+.actions {
+  display: flex;
+
+  gap: 8px;
+}
+
+.toggleBtn {
+  border: none;
+
+  padding: 8px 14px;
+
+  background: #16a34a;
+
+  color: white;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.deleteBtn {
+  border: none;
+
+  padding: 8px 14px;
+
+  background: #dc2626;
+
+  color: white;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+
+  color: #94a3b8;
+}
