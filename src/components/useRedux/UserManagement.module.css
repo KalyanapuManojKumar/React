@@ -1,0 +1,93 @@
+.card {
+  width: 700px;
+
+  background: white;
+
+  padding: 32px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.heading {
+  color: #2563eb;
+
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+
+  gap: 12px;
+
+  margin-bottom: 24px;
+}
+
+.input {
+  flex: 1;
+
+  padding: 12px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 10px;
+}
+
+.addBtn {
+  border: none;
+
+  padding: 12px 20px;
+
+  background: #2563eb;
+
+  color: white;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.userList {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.userCard {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background: #eff6ff;
+
+  padding: 16px;
+
+  border-radius: 12px;
+}
+
+.userCard h3 {
+  color: #1e40af;
+}
+
+.userCard p {
+  color: #64748b;
+}
+
+.deleteBtn {
+  border: none;
+
+  background: #dc2626;
+
+  color: white;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}

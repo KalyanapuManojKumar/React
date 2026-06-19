@@ -10,7 +10,8 @@ import Navbar from "./components/navbar/Navbar";
 // import UseCallbackDemo from "./components/useCallback/UseCallbackDemo";
 // import UseEffectDemo from "./components/useEffect/UseEffectDemo";
 // import TaskManager from "./components/useReducer/TaskManager";
-import UsersList from "./components/useCustom/UsersList";
+// import UsersList from "./components/useCustom/UsersList";
+import UserManagement from "./components/useRedux/UserManagement";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         {/* <UseCallbackDemo /> */}
         {/* <UseEffectDemo /> */}
         {/* <TaskManager /> */}
-        <UsersList />
+        {/* <UsersList /> */}
+        <UserManagement />
       </main>
     </>
   );
