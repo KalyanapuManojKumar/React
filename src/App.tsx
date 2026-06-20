@@ -11,11 +11,14 @@ import Navbar from "./components/navbar/Navbar";
 // import UseEffectDemo from "./components/useEffect/UseEffectDemo";
 // import TaskManager from "./components/useReducer/TaskManager";
 // import UsersList from "./components/useCustom/UsersList";
-import UserManagement from "./components/useRedux/UserManagement";
+// import UserManagement from "./components/useRedux/UserManagement";
+// import UserManagement from "./components/zustand/UserDashboard";
+import QueryProvider from "./components/useQuery/providers/QueryProvider";
+import UserManagement from "./components/useQuery/components/UserDashboard";
 
 function App() {
   return (
-    <>
+    <QueryProvider>
       <Navbar />
 
       <main className="app-content">
@@ -33,7 +36,7 @@ function App() {
         {/* <UsersList /> */}
         <UserManagement />
       </main>
-    </>
+    </QueryProvider>
   );
 }
 
