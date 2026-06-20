@@ -32,6 +32,8 @@ export const useCreateUser = () => {
 
     onError: (error, newUser, context) => {
       // Rollback if API fails
+      console.log(newUser);
+      console.log(error);
       queryClient.setQueryData(["users"], context?.previousUsers);
     },
 
