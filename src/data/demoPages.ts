@@ -64,4 +64,24 @@ export const demoPages = [
     description: "Loaders functions.",
     path: "/loaders",
   },
+  {
+    title: "Actions",
+    description: "Action functions.",
+    path: "/action",
+  },
+  {
+    title: "Forms",
+    description: "React Forms",
+    path: "/forms",
+  },
+  {
+    title: "React Hook Forms",
+    description: "React Hook Forms",
+    path: "/react-hook-form",
+  },
+  {
+    title: "React Formik",
+    description: "React Formiks",
+    path: "/formik",
+  },
 ];

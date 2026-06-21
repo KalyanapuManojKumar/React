@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 500px;
+
+  background: white;
+
+  padding: 32px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card h1 {
+  text-align: center;
+
+  color: #2563eb;
+
+  margin-bottom: 24px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  margin-bottom: 8px;
+
+  font-weight: 500;
+}
+
+.formGroup input {
+  padding: 12px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 10px;
+
+  outline: none;
+}
+
+.formGroup input:focus {
+  border-color: #2563eb;
+}
+
+.submitButton {
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #2563eb;
+
+  color: white;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  opacity: 0.7;
+
+  cursor: not-allowed;
+}

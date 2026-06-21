@@ -25,6 +25,11 @@ import QueryProvider from "../components/useQuery/providers/QueryProvider";
 import QueryDashboard from "../components/useQuery/components/UserDashboard";
 import UserPage from "../components/loader/UserPage";
 import { usersLoader } from "../components/loader/useApiLoader";
+import { createUserAction } from "../components/action/createUserAction";
+import UserForm from "../components/action/UserForm";
+import Form from "../components/forms/UserForm";
+import ReactHookForm from "../components/reactHookForm/ReactHookForm";
+import UserFormik from "../components/formik/UserFormik";
 
 export const router = createBrowserRouter([
   {
@@ -110,6 +115,23 @@ export const router = createBrowserRouter([
         path: "loaders",
         loader: usersLoader,
         element: <UserPage />,
+      },
+      {
+        path: "action",
+        element: <UserForm />,
+        action: createUserAction,
+      },
+      {
+        path: "forms",
+        element: <Form />,
+      },
+      {
+        path: "react-hook-form",
+        element: <ReactHookForm />,
+      },
+      {
+        path: "formik",
+        element: <UserFormik />,
       },
       {
         path: "*",
