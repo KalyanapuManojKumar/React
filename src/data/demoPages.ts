@@ -59,4 +59,9 @@ export const demoPages = [
     description: "Server state management.",
     path: "/tanstack-query",
   },
+  {
+    title: "Loaders",
+    description: "Loaders functions.",
+    path: "/loaders",
+  },
 ];

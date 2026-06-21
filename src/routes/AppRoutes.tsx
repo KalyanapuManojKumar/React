@@ -23,6 +23,8 @@ import ZustandDashboard from "../components/zustand/UserDashboard";
 
 import QueryProvider from "../components/useQuery/providers/QueryProvider";
 import QueryDashboard from "../components/useQuery/components/UserDashboard";
+import UserPage from "../components/loader/UserPage";
+import { usersLoader } from "../components/loader/useApiLoader";
 
 export const router = createBrowserRouter([
   {
@@ -103,6 +105,11 @@ export const router = createBrowserRouter([
             <QueryDashboard />
           </QueryProvider>
         ),
+      },
+      {
+        path: "loaders",
+        loader: usersLoader,
+        element: <UserPage />,
       },
       {
         path: "*",
